@@ -1,0 +1,3 @@
+include ':widgetlibrary'
+include ':app'
+rootProject.name = "PP_WIDGET_LIBRARY"
