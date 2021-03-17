@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="columnCount" format="integer" />
+        <attr name="itemBackground" format="reference" />
+        <attr name="textPaddingH" format="dimension" />
+        <attr name="textPaddingV" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="IndexBar">
+        <attr name="letterSize" format="dimension" />
+        <attr name="letterColor" format="color" />
+        <attr name="focusLetterColor" format="color" />
+        <attr name="letterSpacingExtra" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="ClearEditTextWithIcon">
+        <attr name="letterSpacing" format="float" />
+    </declare-styleable>
+    <declare-styleable name="NestedLinearLayout">
+        <attr name="head_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="GapLinearLayout">
+        <attr name="gap_height" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="GapFrameLayout">
+        <attr name="gap_height_frame" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LineDividerTextView">
+        <attr name="line_divider" format="reference"/>
+        <attr name="line_divider_height" format="dimension"/>
+    </declare-styleable>
+
+    <!--  固定宽高比的属性 -->
+    <declare-styleable name="FixedAspectRatio">
+        <attr name="fixOrientation">
+            <enum name="fixWidth" value="0" />
+            <enum name="fixHeight" value="1" />
+        </attr>
+        <attr name="aspectRatio" format="float" />
+    </declare-styleable>
+    <attr name="iconSize" format="dimension"/>
+    <attr name="iconMargin" format="dimension"/>
+    <attr name="iconSrc" format="reference"/>
+    <attr name="iconLeft" format="reference"/>
+    <attr name="iconRight" format="reference"/>
+    <attr name="duration_max" format="integer"/>
+    <declare-styleable name="JCameraView">
+        <attr name="iconSize"/>
+        <attr name="iconMargin"/>
+        <attr name="iconSrc"/>
+        <attr name="iconLeft"/>
+        <attr name="iconRight"/>
+        <attr name="duration_max"/>
+    </declare-styleable>
+</resources>

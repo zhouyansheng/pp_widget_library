@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="red_point_radius_small">4dp</dimen>
+    <dimen name="item_decoration_title_fontsize">14sp</dimen>
+    <dimen name="item_decoration_title_height">20dp</dimen>
+    <dimen name="item_decoration_detail_title_height">40dp</dimen>
+    <dimen name="item_decoration_title_start_margin">16dp</dimen>
+    <dimen name="item_decoration_detail_title_start_margin">10dp</dimen>
+    <dimen name="item_decoration_bottom">1dp</dimen>
+    <dimen name="screen_dialog_width">274dp</dimen>
+    <dimen name="dim_6">6dp</dimen>
+    <dimen name="dim_10">10dp</dimen>
+    <dimen name="dim_20">20dp</dimen>
+    <dimen name="design_fab_image_size" tools:override="true">50dp</dimen>
+    <dimen name="app_bar_height">290dp</dimen>
+    <dimen name="dp_720">720dp</dimen>
+    <dimen name="dp_1000">1000dp</dimen>
+</resources>
