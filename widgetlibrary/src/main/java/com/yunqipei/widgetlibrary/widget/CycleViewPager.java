@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.yunqipei.baselibrary.picloader.GlideEngine;
+
 /**
  * Created by wangx on 2016/9/13 0013.
  */
